@@ -11,17 +11,27 @@ public class Exercise05 {
 		//Create a radio variable
 		double radio;
 		
-		//Create a longitud variable
-		double longitud;
+		//Create a length variable
+		double length;
+		
+		//Create a area variable
+		double area;
+		
+		System.out.println("Introduce el radio");
 				
 		//The console waits for us to enter a radio
 		radio = sc.nextInt();
 		
-		//Longitud is calculated
-		longitud = (3.14 * 2) + (radio);
+		//Length is calculated
+		length = (2 * Math.PI) * (radio);
+		
+		area = (Math.PI	* Math.pow(radio, 2));
 
-		//The console prints longitud
-		System.out.println("Longitud is:" + longitud);
+		//The console prints length
+		System.out.println("Length is:" + length);
+		
+		//The console prints area
+		System.out.println("Area is:" + area);
 		
 		//Close the scanner
 		sc.close();
