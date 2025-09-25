@@ -10,8 +10,11 @@ public class exercise09 {
 		//Crea un scanner
 		Scanner sc = new Scanner(System.in);
 				
-		//Crea la variable
+		//Crea la variable edad
 		int edad;
+		
+		//Crea la variable mayor
+		boolean mayor;
 				
 		//La consola imprime que indiques tu edad
 		System.out.println("Introduce tu edad:");
@@ -19,10 +22,11 @@ public class exercise09 {
 		//La consola espera que indiques tu edad
 		edad = sc.nextInt();
 		
-		
+		//Hacemos que mayor sea true si edad es mayor o igual que 18
+		mayor = edad>= 18;
 				
 		//La consola imprime
-		System.out.println(");
+		System.out.println("Es mayor de edad  " + mayor);
 				
 		//Close the scanner
 		sc.close();
