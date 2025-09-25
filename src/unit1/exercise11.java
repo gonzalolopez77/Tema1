@@ -14,19 +14,22 @@ public class exercise11 {
 		int pesetas;
 				
 		//Crea la variable euros		
-		double euros;
-						
+		float euros;
+		
+		//Crea la variable conversion
+		final float conversion = 166;
+		
 		//La consola imprime que indiques un numero de pesetas
 		System.out.println("Introduce un numero de pesetas:");
 							
 		//La consola espera que indiques un numero de pesetas
 		pesetas = sc.nextInt();
 		
-		//
-		euros = 
+		//Dividimos nuestras pesetas entre el factor de conversion
+		euros = pesetas / conversion;
 						
-		//La consola imprime si es par
-		System.out.println("Es par  " + par);
+		//La consola imprime tu numero de euros
+		System.out.println("Son" + euros + ("€"));
 						
 		//Close the scanner
 		sc.close();		
