@@ -44,7 +44,7 @@ public class ejercicio2 {
 		 sueldoDescontado = sueldo<1000 ? (sueldo * porcentaje1) /100: (sueldo * porcentaje2) /100;
 		sueldo = sueldo - sueldoDescontado;
 		//La consola imprime el sueldo con impuestos
-		System.out.println("Sueldo con impuestos: " + sueldoDescontado);
+		System.out.println("Sueldo con impuestos: " + sueldo);
 				
 		//Close the scanner
 		sc.close();		
