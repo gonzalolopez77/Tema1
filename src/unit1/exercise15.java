@@ -11,27 +11,27 @@ public class exercise15 {
 		Scanner sc = new Scanner(System.in);
 		
 		//Crea la variable iva
-		final int iva = 21;
+		final int IVA = 21;
 		
 		//Crea la variable precio
-		float precio;
+		double precio;
 		
 		//Crea la variable precioIva
-		float precioIva;		
+		double precioIVA;		
 		
 		//La consola imprime que indiques un precio
 		System.out.println("Precio: ");
 							
 		//La consola espera que indiques un precio
-		precio = sc.nextFloat();	
+		precio = sc.nextDouble();	
 		
 		//Calculamos el precio con el IVA
-		;
+		precioIVA = (IVA * precio) / 100;
+		precioIVA += precio; 
 		
 		//La consola imprime el precio con IVA
-		System.out.println("Precio con IVA: ");
-		
-		
+		System.out.println("Precio con IVA: " + precioIVA);
+				
 		//Close the scanner
 		sc.close();			
 	}

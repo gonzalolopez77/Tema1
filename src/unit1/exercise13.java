@@ -16,23 +16,23 @@ public class exercise13 {
 		//Crea la variable llueve
 		boolean llueve;		
 		
+		//Crea la variable tarea
+		boolean tarea;			
+		
+		//Crea la variable biblioteca
+		boolean biblioteca;			
+		
 		//La consola imprime que indiques si llueve
 		System.out.println("¿Esta lloviendo?(true/false)");
 							
 		//La consola espera que indiques si llueve
-		llueve = sc.nextBoolean();		
-		
-		//Crea la variable biblioteca
-		boolean biblioteca;		
+		llueve = sc.nextBoolean();			
 		
 		//La consola imprime que indiques si vas a la biblioteca
 		System.out.println("¿Vas a la biblioteca?(true/false)");
 							
 		//La consola espera que indiques si vas a la biblioteca
-		biblioteca = sc.nextBoolean();		
-		
-		//Crea la variable tareas
-		boolean tarea;		
+		biblioteca = sc.nextBoolean();			
 		
 		//La consola imprime que indiques si has hecho la tarea
 		System.out.println("¿Has hecho la tarea?(true/false)");
@@ -40,7 +40,10 @@ public class exercise13 {
 		//La consola espera que indiques si has hecho la tarea
 		tarea = sc.nextBoolean();	
 		
-		// 
+		//Solo podremos salir a la calle si no está 
+		//lloviendo y hemos finalizado nuestras tareas. 
+		//Indistintamente de lo anterior, podremos salir a 
+		//la calle: el hecho de tener que ir a la biblioteca
 		salir = (!llueve && tarea) || biblioteca;
 		
 		//La consola imprime si puedes salir o no
