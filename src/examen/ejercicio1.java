@@ -10,22 +10,22 @@ public class ejercicio1 {
 		//Crea un scanner
 		Scanner sc = new Scanner(System.in);
 		
-		//Crea la variable nota1
+		//Crea la variable num1
 		int num1;		
 		
-		//Crea la variable nota2
+		//Crea la variable num2
 		int num2;	
 		
-		//Crea la variable nota3
+		//Crea la variable num3
 		int num3;		
 		
-		//Crea la variable notaEntera
+		//Crea la variable notaMedia
 		double notaMedia;			
 		
 		//La consola imprime que indiques un numero entero
 		System.out.println("Un numero entero: ");
 							
-		//La consola espera que indiques un numero entero
+		//La consola espera que indiques otro numero entero
 		num1 = sc.nextInt();	
 		
 		//La consola imprime que indiques otro numero entero
