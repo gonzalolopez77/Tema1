@@ -27,7 +27,7 @@ public class Ejercicio03 {
 		System.out.println("Indica otro numero entero:");
 		num2 = sc.nextInt();
 		
-		//Usamos el terciario para que nos diga cuanto 
+		//Usamos el ternario para que nos diga cuanto 
 		//le falta para ser multiplo de num2
 		resto = num1 % num2;
 		num1 = (resto == 0) ? 0 : (num2 - resto);

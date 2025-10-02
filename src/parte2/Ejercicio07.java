@@ -42,7 +42,7 @@ public class Ejercicio07 {
 		//Calculamos el 5%
 		descuento = importeTotal * 0.05; 
 		
-		//Usamos el terciario para que si el importe total 
+		//Usamos el ternario para que si el importe total 
 		//es mayor a 100 te hagan un 5% de descuento
 		importeTotal = importeTotal > 100 ? importeTotal - descuento : importeTotal;
 		

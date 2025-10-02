@@ -20,7 +20,7 @@ public class Ejercicio02 {
 		System.out.println("Indica un numero entero:");
 		num = sc.nextInt();
 		
-		//Usamos el terciario para que nos diga cuanto 
+		//Usamos el ternario para que nos diga cuanto 
 		//le falta para ser multiplo de 7
 		resto = num % 7;
 		num = (resto == 0) ? 0 : (7 - resto);
